@@ -1,0 +1,190 @@
+/* Estilos generales */
+body {
+    background-color: yellow;
+    
+}
+
+/* Estilos para la página de fondo amarillo */
+.yellow-background {
+    background-color: yellow;
+    margin: 10px;
+  
+   /* border: 2px solid blue;*/
+}
+/* Estilos para la clase .yellow-background */
+.yellow-background {
+    background-color: yellow; /* Color de fondo amarillo */
+    margin: 10px 20px; /* Margen de 10px arriba y abajo, 20px en los lados izquierdo y derecho */
+}
+
+/* Estilos para la clase .blue-box */
+.blue-box {
+    background-color:white; /* Color de fondo blanco */
+    margin: 0px 0px; /* Margen de 10px arriba y abajo, 20px en los lados izquierdo y derecho */
+}
+
+/* Estilos para la clase .white-box */
+.white-box {
+    background-color: yellow; /* Color de fondo blanco */
+    margin: 10px 20px; /* Margen de 10px arriba y abajo, 20px en los lados izquierdo y derecho */
+}
+
+
+
+/* Estilos para la caja con fondo azul */
+.blue-box {
+    background-color: rgba(30, 30, 205, 0.595);
+   
+    color: white; 
+}
+/* Estilo para los enlaces de la lista de navegación */
+ul.navigation a {
+    text-decoration: underline; /* Agrega subrayado a los enlaces */
+    color: blue; /* Cambia el color del texto a azul  */
+}
+
+/* Estilos para los títulos de sección */
+.section-title {
+    font-size: 24px;
+}
+
+.section-subtitle {
+    font-size: 18px;
+}
+
+/* Estilos para la navegación */
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Estilos para la caja con fondo blanco */
+.white-box {
+    background-color: white;
+    padding: 10px;
+
+    width: 1400px;
+}
+
+/* Estilos para el texto en cursiva */
+.italic-text {
+    font-style: italic;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+figure img {
+    border: 5px solid rgb(108, 70, 70); /* Agregar un borde negro alrededor de la imagen */
+}
+.caption-text {
+    color: rgba(94, 92, 92, 0.399); /* Reemplaza 'tu-color-aquí' con el color deseado, por ejemplo, 'red', '#FF0000', etc. */
+    
+}
+
+.share-bar {
+    padding: 5px; /* Reducir el espacio alrededor de los iconos */
+    border: 1px solid rgb(157, 140, 140); /* Borde más delgado alrededor de los iconos */
+    display: inline-block; /* Hacer que la lista ocupe solo el ancho de su contenido */
+    background-image: linear-gradient(to right, rgb(238, 11, 11) 80%); /* Dividir el fondo en gris y blanco */
+    background-size: 2px 100%; /* Ancho y alto del fondo de la línea de división */
+    background-repeat: no-repeat; /* No repetir el fondo */
+    border-radius: 10px; /* Agregar esquinas redondeadas */
+}
+
+.share-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.share-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.share-icons a {
+    text-decoration: none;
+    color: rgb(76, 104, 156); /* Cambiar el color del texto */
+}
+
+.share-icons img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+ul.related-photos li {
+    display: inline-block; /* Alinea las imágenes en línea horizontalmente */
+    margin-right: 10px; /* Añade espacio entre las imágenes si es necesario */
+}
+
+ul.related-photos img {
+    width: 200px;
+    height: 150px;
+    vertical-align: middle; /* Alinea verticalmente las imágenes con el texto */
+}
+
+/* Establecer el texto en cursiva y cambiar el color */
+.italic-text {
+    font-style: italic; /* Hacer que el texto sea cursivo */
+    color: rgba(94, 92, 92, 0.399); /* Cambiar el color del texto a blanco */
+    padding: 5px; /* Añadir espacio interno alrededor del texto */
+}
+
+
+
+/* Estilos para las reseñas */
+.reviews {
+    list-style: none;
+    padding: 10;
+}
+
+.reviews .italic-text {
+    font-style: italic;
+}
+
+/* Estilos para la línea punteada */
+.dashed-line {
+    border-top: 1px dashed blue;
+}
+
+/* Estilos para la navegación en la parte inferior */
+nav {
+    text-align: center;
+   /* background-color: blue; */
+    padding: 0px;/*van 10 px*/
+
+}
+
+
+table a {
+    text-decoration: underline; /* Agrega subrayado a los enlaces */
+    color: blue; /* Cambia el color del texto a azul */
+    margin: 0 10px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    /*background-color: rgba(94, 92, 92, 0.399);*/
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    
+}
+
+footer p {
+    color: rgba(160, 155, 155, 0.641); /* Cambia el color del texto en el elemento footer a blanco */
+}
