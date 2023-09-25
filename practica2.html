@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles de la Foto</title>
+    <link href="practica2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="container">
+        <h2>Detalles de la Foto</h2>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td colspan="2">Detalles de la Foto</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="titulo">Título</label>
+                            </td>
+                            <td>
+                                <input type="text" id="titulo" name="titulo">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="descripcion">Descripción</label>
+                            </td>
+                            <td>
+                                <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="continente">Continente</label>
+                            </td>
+                            <td>
+                                <select id="continente" name="continente">
+                                    <option value="Africa">Africa</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Europa">Europa</option>
+                                    <option value="Norte America">Norte America</option>
+                                    <option value="Sur America">Sur America</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="pais">País</label>
+                            </td>
+                            <td>
+                                <select id="pais" name="pais">
+                                    <option value="Canada">Canada</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Estados Unidos">Estados Unidos</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="ciudad">Ciudad</label>
+                            </td>
+                            <td>
+                                <input list="ciudades" id="ciudad" name="ciudad">
+                                <datalist id="ciudades">
+                                    <option value="Calgary"></option>
+                                    <option value="Monte Real"></option>
+                                    <option value="Toronto"></option>
+                                    <option value="Vancouver"></option>
+                                    <option value="Tlaxcala"></option>
+                                </datalist>
+                            </td>
+                        </tr>
+                        <!-- Otras filas y campos de formulario aquí -->
+                        <tr>
+                            <td>
+                                <label for="copyright">Copyright?</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="copyright" name="copyright" value="Si"> Sí
+                                <input type="radio" name="copyright" value="No"> No
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="licencia">Licencias Creative Commons</label>
+                            </td>
+                            <td>
+                                <select id="licencia" name="licencia">
+                                    <option value="Atribución">Atribución</option>
+                                    <option value="No Comercial">No Comercial</option>
+                                    <option value="No Derivados">No Derivados</option>
+                                    <option value="Compartir Igual">Compartir Igual</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="fecha">Fecha de Toma</label>
+                            </td>
+                            <td>
+                                <input type="date" id="fecha" name="fecha">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="hora">Hora de Toma</label>
+                            </td>
+                            <td>
+                                <input type="time" id="hora" name="hora">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="calificacion">Califica esta Foto</label>
+                            </td>
+                            <td>
+                                <input type="number" id="calificacion" name="calificacion" min="1" max="5">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="coleccion">Colección de Color</label>
+                            </td>
+                            <td>
+                                <input type="color" id="coleccion" name="coleccion">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="aceptoLicencia">Acepto la Licencia de Software</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="aceptoLicencia" name="aceptoLicencia">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit">Enviar</button>
+                            </td>
+                            <td>
+                                <button type="reset">Limpiar</button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
